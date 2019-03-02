@@ -1,0 +1,13 @@
+{
+  "name": "jsdev-zavx0z",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.json",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "preinstall": "rm ./package.json && cp ./deVenV/package.json ./ && npm install && cp ./deVenV/webpack.config.js ./ && cp ./deVenV/.babelrc ./ && cp ./deVenV/.eslintrc.json ./ "
+  },
+  "author": "zavx0z",
+  "license": "ISC"
+}
