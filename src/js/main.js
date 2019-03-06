@@ -1,6 +1,7 @@
-import {base} from "./base";
+import macro from "./base.macro"
 
-const main = () => console.info("i'm main module")
-
-main()
-base("main.js")
+const html = `Object {
+     "raw": "Hello World!",
+     "rawValue": "Hello World!",
+   }`
+macro(html)
